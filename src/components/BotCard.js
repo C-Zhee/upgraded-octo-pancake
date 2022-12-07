@@ -15,9 +15,7 @@ function BotCard({ bot }) {
     <div className="ui column">
       <div
         className="ui card"
-        key={bot.id}
-        onClick={() => console.log("add code to connect event listener")}
-        // onClick={()=>{addBot(bot)}}
+        key={bot.id}    
       >
         <div className="image">
           <img alt="oh no!" src={bot.avatar_url} />
@@ -49,9 +47,7 @@ function BotCard({ bot }) {
             <div className="ui center aligned segment basic">
               <button
                 className="ui mini red button"
-                onClick={() =>
-                  console.log("add code to connect event listener")
-                }
+                
               >
                 x
               </button>

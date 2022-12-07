@@ -1,17 +1,9 @@
 import React from "react";
 
-const YourBotArmy =({party}) => {
+const YourBotArmy =() => {
   //your bot army code here...
   
-  {
-    party.map((bot)=> {
-      return(
-        <div>
-          <img src ={bot.avatar_url}/>
-        </div>
-      )
-    })
-  }
+  
   return (
     <div className="ui segment inverted olive bot-army">
       <div className="ui five column grid">
